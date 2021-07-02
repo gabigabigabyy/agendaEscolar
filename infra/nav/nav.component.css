@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.mat-raised-button{
+  margin-left: 20px;
+    }
+
+.title{
+   margin-left: 0px;
+     }
