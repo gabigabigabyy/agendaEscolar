@@ -1,0 +1,29 @@
+.footer-copyright {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+    width: 100%;
+    flex-direction: column;
+}
+
+i.fab{ 
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(73, 71, 71);
+    
+
+}
+.list-unstyled{
+    background: #f5f5f5;
+
+}
+.list-inline-item{
+    background-color:#f5f5f5;
+}
+.btn-floating{
+    border: radius 10px;
+    background-color: rgb(189, 184, 184); 
+}

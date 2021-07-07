@@ -1,0 +1,76 @@
+{
+    "alunos": [  
+   
+      {
+        "name": "Théo Fucks",
+        "matricula": "123",
+        "status": "ativo",
+        "dataNascimento": "04/09/2017",
+        "phone": "(51)996796640",
+        "nomePai": "Emiliano da Silveira Fucks",
+        "nomeMae": "Gabriela Santos dos Santos",
+        "endereço": "Artur de oliveira",
+        "numeroEndereço": 66,
+        "complemento": 12,
+        "bairro": "Partenon",
+        "cidade": "Porto Alegre",
+        "id":"theof",
+        "idTurma":1
+      },
+   
+      {
+        "name": "João Fucks",
+        "matricula": "153",
+        "status": "ativo",
+        "dataNascimento": "04/10/2017",
+        "phone": "(51)996796650",
+        "nomePai": "Juliano da Silveira Fucks",
+        "nomeMae": "Renata Santos dos Santos",
+        "endereço": "Aparício Borges",
+        "numeroEndereço": 65,
+        "complemento": 11,
+        "bairro": "Partenon",
+        "cidade": "Porto Alegre",
+        "id":"joaof",
+        "idTurma":2
+      },
+   
+   
+      {
+        "name": "Julia Santos",
+        "matricula": "564",
+        "status": "ativo",
+        "dataNascimento": "14/09/2017",
+        "phone": "(51)996796680",
+        "nomePai": "Gustavo Aquiles",
+        "nomeMae": "Rafaela Santos dos Santos",
+        "endereço": "9 de junho",
+        "numeroEndereço": 54,
+        "complemento": 81,
+        "bairro": "Partenon",
+        "cidade": "Porto Alegre",
+        "id":"julias",
+        "idTurma":2
+   
+      }
+    ],
+
+    "listaturmas": [  
+   
+      {
+          "idTurma":1,
+          "nomeProfessor": "Ana",
+          "nomeTurma":"B1"
+            
+        },
+     {
+          "idTurma":2,
+          "nomeProfessor":"Lucia" ,
+          "nomeTurma":"B2"
+        }
+         
+        
+      
+    ]
+
+}
