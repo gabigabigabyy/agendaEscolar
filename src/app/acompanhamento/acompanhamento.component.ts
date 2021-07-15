@@ -11,5 +11,5 @@ export class AcompanhamentoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  myDate = Date.now();
 }

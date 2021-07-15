@@ -35,8 +35,5 @@ export class AlunosService {
   excluirAluno(aluno: Aluno) {
     return this.httpClient.delete<Aluno>(this.url + aluno.id, this.httpOptions) 
   }
-
-
-
     
 }

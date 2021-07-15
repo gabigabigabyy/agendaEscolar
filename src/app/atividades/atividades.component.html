@@ -1,2 +1,67 @@
 <app-nav></app-nav>
-<p>atividades works!</p>
+
+<br>
+<h1>Calendário de Atividades</h1>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="segunda">
+      <th mat-header-cell *matHeaderCellDef> Segunda</th>
+      <td mat-cell *matCellDef="let element"> {{element.segunda}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="terca">
+      <th mat-header-cell *matHeaderCellDef> Terça </th>
+      <td mat-cell *matCellDef="let element"> {{element.terca}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="quarta">
+      <th mat-header-cell *matHeaderCellDef> Quarta </th>
+      <td mat-cell *matCellDef="let element"> {{element.quarta}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="quinta">
+      <th mat-header-cell *matHeaderCellDef> Quinta </th>
+      <td mat-cell *matCellDef="let element"> {{element.quinta}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="sexta">
+        <th mat-header-cell *matHeaderCellDef> Sexta </th>
+        <td mat-cell *matCellDef="let element"> {{element.sexta}} </td>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+
+<h1>Aniversariantes da Semana</h1>
+
+<table mat-table [dataSource]="dataSource2" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="nomeAluno">
+      <th mat-header-cell *matHeaderCellDef> Nome</th>
+      <td mat-cell *matCellDef="let t"> {{t.nomeAluno}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="diaAniver">
+      <th mat-header-cell *matHeaderCellDef> Dia do Aniversário </th>
+      <td mat-cell *matCellDef="let t"> {{t.diaAniver}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns2"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns2;"></tr>
+    </table>
+    <app-footer></app-footer>

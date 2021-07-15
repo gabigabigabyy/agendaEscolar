@@ -1,2 +1,148 @@
 <app-nav></app-nav>
-<p>acompanhamento works!</p>
+
+<div class="title"><h1>Meu dia: {{myDate| date: 'dd/MM/yyyy'}}</h1>
+</div>
+<div class="flex-container-2">
+<div class="container">
+    <h2>Atividades Realizadas:</h2>
+<div  class="forms">
+    <form>
+        <ul>
+          <input type = "checkbox" id = "musica" value = "musica">
+          <label for = "musica">&nbsp; Música</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" id = "dança"  value = "dança">
+          <label for = "dança">&nbsp; Dança</label>
+      </ul>
+      <ul>
+        <input type = "checkbox" id = "pintura" value = "pintura">
+        <label for = "pintura">&nbsp; Pintura</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type = "checkbox" id = "jogos"  value = "jogos">
+        <label for = "jogos">&nbsp; Jogos</label>
+    </ul>
+    <ul>
+        <input type = "checkbox" id = "colagem"  value = "colagem">
+        <label for = "colagem">&nbsp; Colagem</label>
+            &nbsp;&nbsp;&nbsp; 
+        <input type = "checkbox" id = "patio"  value = "patio">
+        <label for = "patio">&nbsp; Pátio</label>
+    </ul>
+    <ul>
+        <input type = "checkbox" id = "historias" value = "historias">
+        <label for = "historias"> &nbsp; Histórias</label>
+            &nbsp;&nbsp;
+        <input type = "checkbox" id = "modelagem"  value = "modelagem">
+        <label for = "modelagem">&nbsp; Modelagem</label>
+    </ul>
+         </form>
+</div>
+</div>
+<div class="container">
+
+    <h2>Alimentação:</h2>
+
+<div  class="forms">
+    <form>
+        <ul>
+          <input type = "checkbox" id = "cafeManha" value = "cafeManha">
+          <label for = "cafeManha">&nbsp; Café da Manhã</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" id = "almoco"  value = "almoco">
+          <label for = "almoco">&nbsp; Almoço</label>
+      </ul>
+      <ul>
+        <input type = "checkbox" id = "complemento" value = "complemento">
+        <label for = "complemento">&nbsp; Complemento</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type = "checkbox" id = "lanche"  value = "lanche">
+        <label for = "lanche">&nbsp; Lanche</label>
+      </ul>
+    <ul>
+        <input type = "checkbox" id = "frutas"  value = "frutas">
+        <label for = "frutas">&nbsp; Frutas da Estação</label>
+        &nbsp;
+        <input type = "checkbox" id = "janta"  value = "janta">
+        <label for = "janta">&nbsp; Janta</label>
+    </ul>
+          </form>
+</div>
+</div>
+<div class="container">
+
+    <h2>Humor:</h2>
+
+<div  class="forms">
+    <form>
+        <ul>
+          <input type = "checkbox" id = "cafeManha" value = "cafeManha">
+          <label for = "cafeManha">&nbsp; Alegre</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" id = "almoco"  value = "almoco">
+          <label for = "almoco">&nbsp; Feliz</label>
+      </ul>
+      <ul>
+        <input type = "checkbox" id = "brincalhao" value = "brincalhao">
+        <label for = "brincalhao">&nbsp; Brincalhão</label>
+            &nbsp;
+        <input type = "checkbox" id = "triste"  value = "triste">
+        <label for = "triste">&nbsp; Triste</label>
+    </ul>
+    <ul>
+        <input type = "checkbox" id = "zangado"  value = "zangado">
+        <label for = "zangado">&nbsp; Zangado</label>
+    </ul>
+           </form>
+</div>
+</div>
+</div>
+<div class="flex-container">
+<div class="container">
+
+    <h2>Saúde e Higiene:</h2>
+
+ <div class="forms">
+    <form>
+        <ul>
+          <input type = "checkbox" id = "xixi" value = "xixi">
+          <label for = "xixi">&nbsp; Xixi</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" id = "coco"  value = "coco">
+          <label for = "coco">&nbsp; Cocô</label>
+      </ul>
+      <ul>
+        <input type = "checkbox" id = "tosse" value = "tosse">
+        <label for = "tosse">&nbsp; Tosse</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type = "checkbox" id = "febre"  value = "febre">
+        <label for = "febre">&nbsp; Febre</label>
+    </ul>
+    <ul>
+        <input type = "checkbox" id = "coriza"  value = "coriza">
+        <label for = "coriza">&nbsp; Coriza</label>
+     </ul>     
+        </form>
+     </div>
+     </div>
+
+          <div class="container">
+    <h2>Anotações:</h2>
+
+<div class="forms">
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control  form-control-lg" id="exampleFormControlTextarea1" rows="5"></textarea>
+      </div>
+<div class="botao">
+    
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="container3">
+    <button class="btn btn-light btn-lg" type = "submit"> Salvar </button>
+    </div>
+<app-footer></app-footer>
+

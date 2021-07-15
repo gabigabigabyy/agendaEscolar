@@ -1,7 +1,8 @@
+import { CommonModule, registerLocaleData } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material/material.module';
 
-import { CUSTOM_ELEMENTS_SCHEMA, LOCALE_ID, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { AtividadesComponent } from './atividades/atividades.component';
 import { BilhetesComponent } from './bilhetes/bilhetes.component';
 import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
 import { MensagemComponent } from './mensagem/mensagem.component';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
 
 
 
@@ -39,12 +41,13 @@ import { MensagemComponent } from './mensagem/mensagem.component';
     ReactiveFormsModule,
     MaterialModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    CommonModule
     
  
     
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'pt-BR' }],
+  providers: [{provide: MAT_DATE_LOCALE, useValue: 'pt-BR'}],
   bootstrap: [AppComponent],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA
   ],
