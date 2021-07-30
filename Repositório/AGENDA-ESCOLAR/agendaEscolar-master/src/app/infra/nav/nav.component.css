@@ -1,0 +1,39 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.mat-raised-button{
+  margin-left: 20px;
+    }
+
+.nomeEscola{
+display: flex;
+ flex-direction: row;
+margin-left: 80%;
+font-family:cursive;
+color: white;
+}
+.btn-light{
+  margin-right: 10px;
+  border: none;
+  color:rgb(255, 153, 0);
+  }
+button:hover{
+  color:white;
+  background-color: rgb(255, 153, 0);
+}
+.active{
+  color:white;
+  background-color: #EA4524;
+}
+.color{
+  background-color: #EA4524;
+  box-shadow: 2px 5px 18px rgb(191, 196, 196);
+  border-color: transparent;
+}

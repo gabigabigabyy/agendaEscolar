@@ -1,0 +1,26 @@
+<div class="flex-container">
+  
+  <div class="login">
+	<div class="img-container">
+		<img class="logo" src="assets/img/Design sem nome.png" alt="logo">
+	  </div>
+    <div class="login__container">
+      <h1 class="login__title">Login</h1>
+      <form class="login__form" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+
+        <input class="login__input" name="email" type="email" placeholder="e-mail" ngModel/>
+        <span class="login__input-border"></span>
+
+        <input class="login__input" name="password" type="password" placeholder="senha" ngModel/>
+        <span class="login__input-border"></span>
+
+        <button class="login__submit">Login</button>
+        <a class="login__reset" href="#">Esqueceu a senha?</a>
+        </form>
+      
+    </div>
+
+
+  </div>
+</div>
+<app-footer></app-footer>

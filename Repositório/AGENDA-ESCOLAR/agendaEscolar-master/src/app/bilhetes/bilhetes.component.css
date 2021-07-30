@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+    padding:5%
+}
+.form-control{
+    height: 150px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+ font-family: cursive;
+}
+
+.botao2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+}

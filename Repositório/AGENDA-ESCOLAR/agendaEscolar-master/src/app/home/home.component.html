@@ -1,0 +1,39 @@
+<app-nav></app-nav>
+<div class="card" style="width: 100rem;">
+    <div class="card-header">
+        <div class="float-left">
+            <h1>Lista de Alunos</h1>
+        </div>
+        <div class="float-right">
+            <button type="button" class="btn btn-light" [routerLink]="['novo']">Novo Aluno</button>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Data Nascimento</th>
+                    <th>Contato</th>
+                    <th>Responsável</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let aluno of lista">
+                    <td routerLinkActive="active" routerLink="/acompanhamento">{{aluno.name}}</td>
+                    <td>{{aluno.dataNascimento}}</td>
+                    <td>{{aluno.phone}}</td>
+                    <td>{{aluno.nomeMae}}</td>
+                    <td>
+                    <span class="float-right">
+                    <button type="button" class="btn btn-outline-warning">Atualizar</button>
+                    <button type="button"class="btn btn-outline-danger">Remover</button>
+                    </span>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<app-footer></app-footer>
